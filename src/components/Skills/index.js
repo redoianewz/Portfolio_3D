@@ -75,8 +75,7 @@ const Skill = styled.div`
   transition: 0.6s ease all;
 
   &:hover {
-    transform: perspective(800px) rotateY(-15deg) translateY(-50px)
-      rotateX(45deg) scale(1);
+    transform: rotateX(1deg) rotateY(180deg) scale3d(1.1, 1.1, 1.1);
     filter: blur(0);
     opacity: 1;
   }
@@ -88,11 +87,11 @@ const SkillTitle = styled.h2`
   color: ${({ theme }) => theme.text_secondary};
   margin-bottom: 20px;
   text-align: center;
-    &:hover {
-    transform: perspective(1000px) rotateX(10deg) rotateY(10deg) scale3d(1.1, 1.1, 1.1);
+  &:hover {
+    transform: rotateX(1deg) rotateY(180deg) scale3d(1.1, 1.1, 1.1);
     transition: all 0.3s ease-in-out;
   }
-`
+`;
 
 const SkillList = styled.div`
   display: flex;
