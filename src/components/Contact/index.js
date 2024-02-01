@@ -138,9 +138,6 @@ const Contact = () => {
         console.log(error.text);
       });
   }
-
-
-
   return (
     <Container>
       <Wrapper>

@@ -40,7 +40,7 @@ const Card = styled.div`
 
 const Image = styled.img`
     width: 100%;
-    height: 180px;
+    height: 240px;
     background-color: ${({ theme }) => theme.white};
     border-radius: 10px;
     box-shadow: 0 0 16px 2px rgba(0,0,0,0.3);
@@ -138,9 +138,9 @@ const ProjectCards = ({project,setOpenModal}) => {
             </Details>
             <Members>
                 {project.member?.map((member) => (
-                    <Avatar src={member.img}/>
+                    <Avatar src={member.img}/>                    
                 ))}
-            </Members>
+            </Members>            
             {/* <Button>View Project</Button> */}
         </Card>
     )
