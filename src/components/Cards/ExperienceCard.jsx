@@ -174,10 +174,7 @@ const ExperienceCard = ({ experience }) => {
         {experience.doc && (
           <a href={experience.doc} target="new">
             <Document
-              src={experience.doc}
-              // experience doc
-              alt="The experience document is in
-               the process of being processed"
+              src={experience.doc}            
             />
           </a>
         )}
