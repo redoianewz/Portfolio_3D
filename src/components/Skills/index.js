@@ -73,12 +73,7 @@ const Skill = styled.div`
     padding: 10px 36px;
   }
   transition: 0.6s ease all;
-
-  &:hover {
-    transform: rotateX(1deg) rotateY(180deg) scale3d(1.1, 1.1, 1.1);
-    filter: blur(0);
-    opacity: 1;
-  }
+ 
 `;
 
 const SkillTitle = styled.h2`
@@ -111,7 +106,7 @@ const SkillItem = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px; 
+  gap: 8px;
   @media (max-width: 768px) {
     font-size: 14px;
     padding: 8px 12px;
@@ -119,6 +114,11 @@ const SkillItem = styled.div`
   @media (max-width: 500px) {
     font-size: 14px;
     padding: 6px 12px;
+  }
+  &:hover {
+    transform: rotateX(1deg) rotateY(180deg) scale3d(1.1, 1.1, 1.1);
+    transition: all 0.3s ease-in-out;
+   
   }
 `;
 
