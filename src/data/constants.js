@@ -270,8 +270,8 @@ export const projects = [
       "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://podstream.netlify.app/",
+    github: "https://github.com/redoianewz/Podstream",
+    webapp: "https://podstream.vercel.app/",
   },
   {
     id: 11,
@@ -312,8 +312,8 @@ export const projects = [
       "NodeMailer",
     ],
     category: "web app",
-    github: "https://github.com/rishavchanda/Project-Management-App",
-    webapp: "https://vexa-app.netlify.app/",
+    github: "https://github.com/redoianewz/Vexa",
+    webapp: "https://vexa.vercel.app/",
   },
   {
     id: 2,
@@ -399,8 +399,7 @@ export const projects = [
     date: "Jan 2021",
     description:
       "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
-    image:
-    "https://bachen-eco.onrender.com/images/page/face.png",
+    image: "https://bachen-eco.onrender.com/images/page/face.png",
     tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
     category: "machine learning",
     github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
