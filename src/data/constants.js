@@ -199,7 +199,7 @@ export const experiences = [
       "bootstrap",
       "JavaScript",
     ],
-    doc: "https://media.canva.com/1/image-resize/1/389_550_92_JPG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS9OOFFBVS9NQUY3aktOOFFBVS8xL3AuanBn?osig=AAAAAAAAAAAAAAAAAAAAAHKbNPN1ZJc5HIUylLzpngNh-XGHLOrtVc4N0TO7LMmC&exp=1706807144&x-canva-quality=thumbnail_large&csig=AAAAAAAAAAAAAAAAAAAAAGY4vEfZgtKN9WYnJsjNZ8p4Wbi9ml4bgJGfZfpVFoR3",
+    doc: "https://bachen-eco.onrender.com/images/page/bys.jpg",
   },
   {
     id: 0,
@@ -213,13 +213,14 @@ export const experiences = [
       "React Native",
       "NextJS",
       "NodeJs",
-      "ExpressJs",            
+      "ExpressJs",
       "MySQL",
       "HTML",
       "CSS",
       "Tailwind CSS",
       "API",
-      "JavaScript","TypeScript",
+      "JavaScript",
+      "TypeScript",
     ],
     doc: "https://firebasestorage.googleapis.com/v0/b/buckid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
   },
@@ -233,9 +234,8 @@ export const education = [
     date: "jun 2020",
     grade: "13.73 / 20 ",
     desc: "I obtained a baccalaureate degree in Physical Sciences",
-    degree:
-      "baccalaureate of Physical Sciences",
-    doc: "https://media.canva.com/1/image-resize/1/388_550_92_JPG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS9scVBzQS9NQUY3anNscVBzQS8xL3AuanBn?osig=AAAAAAAAAAAAAAAAAAAAAJWRQ6Bd_dqYNDoADbajsbGLgvfj_Yx9NC7TTGBWCUTO&exp=1706812909&x-canva-quality=thumbnail_large&csig=AAAAAAAAAAAAAAAAAAAAAFVDf8Ih8bdAQWSSwpWA0I8HKvJbTDIq2GuCXa99d_BY",
+    degree: "baccalaureate of Physical Sciences",
+    doc: "https://bachen-eco.onrender.com/images/page/bac.jpg",
   },
   {
     id: 1,
@@ -245,7 +245,7 @@ export const education = [
     grade: "13.52 / 20",
     desc: "I obtained a diplome of Technician Specialized Development Digital option: Web Full Stack",
     degree: "Development Digital option: Web Full Stack",
-    doc: "https://media.canva.com/1/image-resize/1/550_388_92_JPG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS9udkZSRS9NQUY3amludkZSRS8xL3AuanBn?osig=AAAAAAAAAAAAAAAAAAAAAGgI17eYjSJHwh85jDwXtELJwkGfyzr3_jvi-xexSy-i&exp=1706812898&x-canva-quality=thumbnail_large&csig=AAAAAAAAAAAAAAAAAAAAALFoB3KcDOeGuarOMzda6EQBqE-oubu66Grl-16kn2jK",
+    doc: "https://bachen-eco.onrender.com/images/page/ofppt.jpg",
   },
   {
     id: 2,
@@ -400,7 +400,7 @@ export const projects = [
     description:
       "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
     image:
-      "https://document-export.canva.com/3qoU8/DAF7jx3qoU8/5/thumbnail/0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUHWDTJW6UD%2F20240201%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240201T025036Z&X-Amz-Expires=53115&X-Amz-Signature=6ebd4ac1c534aa38cca3acf928785bd90083776fdd071d936d8d1604b872ab5b&X-Amz-SignedHeaders=host&response-expires=Thu%2C%2001%20Feb%202024%2017%3A35%3A51%20GMT",
+    "https://bachen-eco.onrender.com/images/page/face.png",
     tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
     category: "machine learning",
     github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
