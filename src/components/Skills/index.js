@@ -1,15 +1,17 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 import styled from 'styled-components'
 import { skills } from '../../data/constants'
+import { useSpring, animated } from "react-spring";
+import { Element } from "react-scroll";
 
 const Container = styled.div`
-display: flex;
-flex-direction: column;
-justify-content: center;
-position: relative;
-z-index: 1;
-align-items: center;
-`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  align-items: center;
+`;
 
 const Wrapper = styled.div`
 position: relative;
@@ -127,33 +129,63 @@ const SkillImage = styled.img`
   height: 24px;
 `
 
+const AnimatedSkillsContainer = animated(SkillsContainer);
 
 const Skills = () => {
+  const [isVisible, setIsVisible] = useState(false);
+  const props = useSpring({
+    opacity: isVisible ? 1 : 0,
+    transform: isVisible ? "translateX(0%)" : "translateX(100%)",
+    config: { duration: 1000 },
+  });
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const skillsElement = document.getElementById("skills");
+      if (skillsElement) {
+        const skillsElementRect = skillsElement.getBoundingClientRect();
+        const isVisible = skillsElementRect.top <= window.innerHeight * 0.75;
+        setIsVisible(isVisible);
+      }
+    };
+
+    // Attach the scroll event listener
+    window.addEventListener("scroll", handleScroll);
+
+    // Cleanup the event listener on component unmount
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <Container id="skills">
-      <Wrapper>
-        <Title>Skills</Title>
-        <Desc>Here are some of my skills on which I have been working on for the past 2 years.
-        </Desc>
-        <SkillsContainer >
-          {skills.map((skill) => (
-            <Skill >
-              <SkillTitle>{skill.title}</SkillTitle>
-              <SkillList>
-                {skill.skills.map((item) => (
-                  <SkillItem>
-                    <SkillImage src={item.image}/>
-                    {item.name}
-                  </SkillItem>
-                ))}
-              </SkillList>
-            </Skill>
-          ))}
+    <Element name="skills">
+      <Container>
+        <Wrapper>
+          <Title>Skills</Title>
+          <Desc>
+            Here are some of my skills on which I have been working on for the
+            past 2 years.
+          </Desc>
+          <AnimatedSkillsContainer id="skills" style={props}>
+            {skills.map((skill) => (
+              <Skill key={skill.title}>
+                <SkillTitle>{skill.title}</SkillTitle>
+                <SkillList>
+                  {skill.skills.map((item) => (
+                    <SkillItem key={item.name}>
+                      <SkillImage src={item.image} alt={item.name} />
+                      {item.name}
+                    </SkillItem>
+                  ))}
+                </SkillList>
+              </Skill>
+            ))}
+          </AnimatedSkillsContainer>
+        </Wrapper>
+      </Container>
+    </Element>
+  );
+};
 
-        </SkillsContainer>
-      </Wrapper>
-    </Container>
-  )
-}
-
-export default Skills
+export default Skills;
