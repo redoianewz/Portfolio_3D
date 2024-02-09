@@ -1,5 +1,5 @@
-import React from 'react';
-import { Div } from './HeroBgAnimationStyle';
+import React from "react";
+import { Div } from "./HeroBgAnimationStyle";
 const HeroBgAnimation = () => (
   <Div>
     <svg
@@ -8,7 +8,7 @@ const HeroBgAnimation = () => (
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g opacity="0.15">
+      <g opacity="0.25">
         <path
           fillRule="evenodd"
           clipRule="evenodd"
@@ -16,6 +16,7 @@ const HeroBgAnimation = () => (
           stroke="url(#paint0_radial)"
           id="path_0"
         />
+
         <path
           d="M514.563 201.337C522.426 193.474 522.426 180.725 514.563 172.862L429.138 87.437C421.275 79.5738 408.526 79.5739 400.663 87.437L358.098 130.002L301.148 73.0516L343.713 30.4869C383.028 -8.82896 446.772 -8.82896 486.088 30.4869L571.513 115.912C610.829 155.228 610.829 218.972 571.513 258.287L357.802 471.999L300.852 415.049L514.563 201.337Z"
           stroke="url(#paint1_radial)"
@@ -25,7 +26,7 @@ const HeroBgAnimation = () => (
           d="M243.901 471.999L201.337 514.563C193.474 522.426 180.725 522.426 172.862 514.563L87.437 429.138C79.5739 421.275 79.5739 408.526 87.437 400.663L301.148 186.952L244.198 130.002L30.4869 343.713C-8.82897 383.028 -8.82897 446.772 30.4869 486.088L115.912 571.513C155.228 610.829 218.972 610.829 258.287 571.513L300.852 528.949L243.901 471.999Z"
           stroke="url(#paint2_radial)"
           id="path_2"
-        />
+        />        
       </g>
       <ellipse
         cx="295.027"
@@ -54,7 +55,7 @@ const HeroBgAnimation = () => (
         transform="translate(-295.027 -193.118)"
         rx="1.07306"
         ry="1.07433"
-        fill="#46737"
+        fill="#ffff"
       >
         <animateMotion
           dur="5s"

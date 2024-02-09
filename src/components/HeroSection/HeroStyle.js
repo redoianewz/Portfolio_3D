@@ -1,6 +1,14 @@
-import styled from "styled-components";
+import styled , { keyframes } from "styled-components";
 import _default from "../../themes/default";
 
+const rotateAnimation = keyframes`
+  0% {
+    transform: translateX(-200%) rotate(0deg);
+  }
+  100% {
+    transform: translateX(0%) rotate(1440deg)
+  }
+`;
 export const HeroContainer = styled.div`
   background: ${({ theme }) => theme.card_light};
   display: flex;
@@ -14,7 +22,6 @@ export const HeroContainer = styled.div`
     padding: 32px 16px;
   }
   z-index: 1;
-
   clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
 `;
 
@@ -90,6 +97,8 @@ export const HeroRightContainer = styled.div`
   @media (max-width: 640px) {
     margin-bottom: 30px;
   }
+  animation: ${rotateAnimation} 2s ease;
+  transform-origin: start;
 `;
 
 export const Img = styled.img`
