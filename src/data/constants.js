@@ -315,152 +315,152 @@ export const projects = [
     github: "https://github.com/redoianewz/Vexa",
     webapp: "https://vexa.vercel.app/",
   },
-  {
-    id: 2,
-    title: "Brain Tumor Detection",
-    date: "Jan 2023 - Mar 2023",
-    description:
-      "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
-    image:
-      "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "machine learning",
-    github: "https://ouaaziz.vercel.app/",
-    //  "https://github.com/rishavchanda/Brain-Tumor-Detection"
-    webapp: "https://ouaaziz.vercel.app",
-    // https://brain-tumor.netlify.app
-  },
-  {
-    id: 3,
-    title: "Buckoid",
-    date: "Dec 2021 - Apr 2022",
-    description:
-      "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/login-ea5e2.appspot.com/o/Buckoid%20App%20Screenshot.png?alt=media&token=ddeadcf3-af0b-4440-98a3-a54a742ca268",
-    tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
-    category: "android app",
-    github: "https://ouaaziz.vercel.app",
-    // "https://github.com/rishavchanda/Buckoid-Android-App",
-    webapp: "https://ouaaziz.vercel.app",
-    //  "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
-  },
-  {
-    id: 4,
-    title: "Whatsapp Clone",
-    date: "Jul 2021",
-    description:
-      "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
-    tags: ["React Js", "Firebase", "Firestore", "Node JS"],
-    category: "web app",
-    github: "https://ouaaziz.vercel.app",
-    // "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
-    webapp: "https://ouaaziz.vercel.app ",
-    //  "https://whatsapp-clone-rishav.web.app",
-  },
-  {
-    id: 5,
-    title: "Todo Web App",
-    date: "Jun 2021",
-    description:
-      " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/todo-app-c8c19.appspot.com/o/Screenshot%20(98).png?alt=media&token=3d35dcf2-bff2-4708-901c-42288f8328f3",
-    tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
-    category: "web app",
-    github: "https://ouaaziz.vercel.app",
-    //  "https://github.com/rishavchanda/Todo-Web-App",
-    webapp: "https://ouaaziz.vercel.app",
-    // "https://rishav-react-todo.netlify.app/",
-  },
-  {
-    id: 6,
-    title: "Breaking Bad",
-    date: "Jun 2021",
-    description:
-      "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/todo-app-c8c19.appspot.com/o/Screenshot%20(154).png?alt=media&token=ea49860c-0456-4334-ad57-3b94fc03362c",
-    tags: ["React Js", "API", "Axios", "Node JS"],
-    category: "web app",
-    github: "https://ouaaziz.vercel.app",
-    // "https://github.com/rishavchanda/Breaking-Bad",
-    webapp: "https://ouaaziz.vercel.app",
-    //  "https://breaking-bad-webapp.netlify.app",
-  },
-  {
-    id: 7,
-    title: "Quiz App",
-    date: "Dec 2020 - Jan 2021",
-    description:
-      "A android quiz app made with Java and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the quiz categories and can create a new quiz. It has a leaderboard where users can see the top 10 scorers. It has a search bar where users can search for a particular quiz.",
-    image:
-      "https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif",
-    tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
-    category: "android app",
-    github: "https://ouaaziz.vercel.app",
-    // "https://github.com/rishavchanda/Quiz-Earn",
-    webapp: "https://ouaaziz.vercel.app",
-    // "https://github.com/rishavchanda/Quiz-Earn",
-  },
-  {
-    id: 8,
-    title: "Face Recognition",
-    date: "Jan 2021",
-    description:
-      "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
-    image: "https://bachen-eco.onrender.com/images/page/face.png",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "machine learning",
-    github: "https://ouaaziz.vercel.app",
-    // "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-    webapp: "https://ouaaziz.vercel.app",
-    // "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-  },
-  {
-    id: 9,
-    title: "Trackify",
-    date: "Jun 2023 - Jul 2023",
-    description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
-    tags: [
-      "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
-      "CI/CD",
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-    ],
-    category: "web app",
-    github: "https://ouaaziz.vercel.app",
-    // "https://github.com/rishavchanda/Trackify",
-    webapp: "https://ouaaziz.vercel.app",
-    //  "https://trackify.duckdns.org",
-  },
-  {
-    id: 10,
-    title: "Job Finding App",
-    date: "Jun 2023 - Jul 2023",
-    description:
-      "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
-    tags: ["React Native", "JavaScript", "Axios"],
-    category: "android app",
-    github: "https://ouaaziz.vercel.app",
-    // "https://github.com/rishavchanda/Job-finder-App",
-    webapp: "https://ouaaziz.vercel.app",
-    // "https://github.com/rishavchanda/Job-finder-App",
-  },
+  // {
+  //   id: 2,
+  //   title: "Brain Tumor Detection",
+  //   date: "Jan 2023 - Mar 2023",
+  //   description:
+  //     "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
+  //   image:
+  //     "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
+  //   tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
+  //   category: "machine learning",
+  //   github: "https://ouaaziz.vercel.app/",
+  //   //  "https://github.com/rishavchanda/Brain-Tumor-Detection"
+  //   webapp: "https://ouaaziz.vercel.app",
+  //   // https://brain-tumor.netlify.app
+  // },
+  // {
+  //   id: 3,
+  //   title: "Buckoid",
+  //   date: "Dec 2021 - Apr 2022",
+  //   description:
+  //     "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
+  //   image:
+  //     "https://firebasestorage.googleapis.com/v0/b/login-ea5e2.appspot.com/o/Buckoid%20App%20Screenshot.png?alt=media&token=ddeadcf3-af0b-4440-98a3-a54a742ca268",
+  //   tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
+  //   category: "android app",
+  //   github: "https://ouaaziz.vercel.app",
+  //   // "https://github.com/rishavchanda/Buckoid-Android-App",
+  //   webapp: "https://ouaaziz.vercel.app",
+  //   //  "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
+  // },
+  // {
+  //   id: 4,
+  //   title: "Whatsapp Clone",
+  //   date: "Jul 2021",
+  //   description:
+  //     "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
+  //   image:
+  //     "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
+  //   tags: ["React Js", "Firebase", "Firestore", "Node JS"],
+  //   category: "web app",
+  //   github: "https://ouaaziz.vercel.app",
+  //   // "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
+  //   webapp: "https://ouaaziz.vercel.app ",
+  //   //  "https://whatsapp-clone-rishav.web.app",
+  // },
+  // {
+  //   id: 5,
+  //   title: "Todo Web App",
+  //   date: "Jun 2021",
+  //   description:
+  //     " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
+  //   image:
+  //     "https://firebasestorage.googleapis.com/v0/b/todo-app-c8c19.appspot.com/o/Screenshot%20(98).png?alt=media&token=3d35dcf2-bff2-4708-901c-42288f8328f3",
+  //   tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
+  //   category: "web app",
+  //   github: "https://ouaaziz.vercel.app",
+  //   //  "https://github.com/rishavchanda/Todo-Web-App",
+  //   webapp: "https://ouaaziz.vercel.app",
+  //   // "https://rishav-react-todo.netlify.app/",
+  // },
+  // {
+  //   id: 6,
+  //   title: "Breaking Bad",
+  //   date: "Jun 2021",
+  //   description:
+  //     "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
+  //   image:
+  //     "https://firebasestorage.googleapis.com/v0/b/todo-app-c8c19.appspot.com/o/Screenshot%20(154).png?alt=media&token=ea49860c-0456-4334-ad57-3b94fc03362c",
+  //   tags: ["React Js", "API", "Axios", "Node JS"],
+  //   category: "web app",
+  //   github: "https://ouaaziz.vercel.app",
+  //   // "https://github.com/rishavchanda/Breaking-Bad",
+  //   webapp: "https://ouaaziz.vercel.app",
+  //   //  "https://breaking-bad-webapp.netlify.app",
+  // },
+  // {
+  //   id: 7,
+  //   title: "Quiz App",
+  //   date: "Dec 2020 - Jan 2021",
+  //   description:
+  //     "A android quiz app made with Java and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the quiz categories and can create a new quiz. It has a leaderboard where users can see the top 10 scorers. It has a search bar where users can search for a particular quiz.",
+  //   image:
+  //     "https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif",
+  //   tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
+  //   category: "android app",
+  //   github: "https://ouaaziz.vercel.app",
+  //   // "https://github.com/rishavchanda/Quiz-Earn",
+  //   webapp: "https://ouaaziz.vercel.app",
+  //   // "https://github.com/rishavchanda/Quiz-Earn",
+  // },
+  // {
+  //   id: 8,
+  //   title: "Face Recognition",
+  //   date: "Jan 2021",
+  //   description:
+  //     "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
+  //   image: "https://bachen-eco.onrender.com/images/page/face.png",
+  //   tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
+  //   category: "machine learning",
+  //   github: "https://ouaaziz.vercel.app",
+  //   // "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
+  //   webapp: "https://ouaaziz.vercel.app",
+  //   // "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
+  // },
+  // {
+  //   id: 9,
+  //   title: "Trackify",
+  //   date: "Jun 2023 - Jul 2023",
+  //   description:
+  //     "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
+  //   image:
+  //     "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+  //   tags: [
+  //     "Docker",
+  //     "AWS",
+  //     "DuckDNS",
+  //     "Eslint",
+  //     "Husky",
+  //     "CI/CD",
+  //     "React Js",
+  //     "MongoDb",
+  //     "Node Js",
+  //     "Express Js",
+  //     "Redux",
+  //   ],
+  //   category: "web app",
+  //   github: "https://ouaaziz.vercel.app",
+  //   // "https://github.com/rishavchanda/Trackify",
+  //   webapp: "https://ouaaziz.vercel.app",
+  //   //  "https://trackify.duckdns.org",
+  // },
+  // {
+  //   id: 10,
+  //   title: "Job Finding App",
+  //   date: "Jun 2023 - Jul 2023",
+  //   description:
+  //     "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
+  //   image:
+  //     "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
+  //   tags: ["React Native", "JavaScript", "Axios"],
+  //   category: "android app",
+  //   github: "https://ouaaziz.vercel.app",
+  //   // "https://github.com/rishavchanda/Job-finder-App",
+  //   webapp: "https://ouaaziz.vercel.app",
+  //   // "https://github.com/rishavchanda/Job-finder-App",
+  // },
 ];
 
 export const TimeLineData = [
