@@ -1,12 +1,12 @@
 import styled , { keyframes } from "styled-components";
 import _default from "../../themes/default";
 
-const rotateAnimation = keyframes`
+const popupAnimation = keyframes`
   0% {
-    transform: translateX(-200%) rotate(0deg);
+    transform: scale(0);
   }
   100% {
-    transform: translateX(0%) rotate(1440deg)
+    transform: scale(1);
   }
 `;
 export const HeroContainer = styled.div`
@@ -97,7 +97,7 @@ export const HeroRightContainer = styled.div`
   @media (max-width: 640px) {
     margin-bottom: 30px;
   }
-  animation: ${rotateAnimation} 2s ease;
+  animation: ${popupAnimation} 2s ease;
   transform-origin: start;
 `;
 

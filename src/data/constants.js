@@ -9,8 +9,7 @@ export const Bio = {
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/redoianewz?tab=repositories",
-  resume:
-    "https://drive.google.com/file/d/1E5EcejV_sYzKvSzlcKN-K88jDvt3TP9s/view",
+  resume:"https://drive.google.com/file/d/1Oj3KifozXgawNwRBGO7pj11RXil8SUMG/view",
   linkedin: "https://www.linkedin.com/in/redoine-ouaaziz-16251b254/",
   twitter: "https://twitter.com/ouaaziz37653",
   insta: "https://www.instagram.com/ouaaziz975/",
@@ -104,7 +103,7 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
       },
       {
-        name: "Postgresql",
+        name: "PHP",
         image: "https://www.postgresql.org/media/img/about/press/elephant.png",
       },
       {
@@ -119,6 +118,20 @@ export const skills = [
       {
         name: "Laravel",
         image: "https://www.vectorlogo.zone/logos/laravel/laravel-icon.svg",
+      },
+      {
+        name: "Django",
+        image:
+          "https://www.vectorlogo.zone/logos/djangoproject/djangoproject-icon.svg",
+      },
+      {
+        name: "CodeIgniter",
+        image: "https://codeigniter.com/assets/icons/ci-logo.png",
+      },
+      {
+        name: "Api [Fetch - Axios - ajax]",
+        image:
+          "https://e7.pngegg.com/pngimages/834/715/png-clipart-computer-icons-api-text-logo.png",
       },
     ],
   },
@@ -202,7 +215,7 @@ export const experiences = [
     doc: "https://bachen-eco.onrender.com/images/page/bys.jpg",
   },
   {
-    id: 0,
+    id: 1,
     img: "https://delis.ma/wp-content/uploads/2018/11/Logo-delis-footer.jpg",
     role: "Fullstack web && mobile developer intern",
     company: "Delis",
@@ -223,6 +236,33 @@ export const experiences = [
       "TypeScript",
     ],
     doc: "https://firebasestorage.googleapis.com/v0/b/buckid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
+  },
+  {
+    id: 2,
+    img: "https://www.azilalalhora.com/imagesnews/1591911342.jpg",
+    role: "Developer PHP",
+    company: "Maxmind",
+    date: "jun 2024 - present",
+    //reate site web ecommerce
+    desc: "maintain and develop the company's website",
+    skills: [
+      "PHP",
+      "CodeIgniter",
+      "Perfex CRM",
+      "MySQL",
+      "sqlite",
+      "api[fetch, axios, ajax]",
+      "JavaScript",
+      "nodejs",
+      "vuejs",
+      "Three.js",
+      "HTML",
+      "CSS",
+      "bootstrap",
+      'Tailwind CSS',
+      'franken'
+    ],
+    doc: "https://bachen-eco.onrender.com/images/page/bys.jpg",
   },
 ];
 

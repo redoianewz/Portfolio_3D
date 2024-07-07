@@ -85,11 +85,10 @@ const SkillTitle = styled.h2`
   margin-bottom: 20px;
   text-align: center;
   &:hover {
-    transform: rotateX(1deg) rotateY(180deg) scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
     transition: all 0.3s ease-in-out;
   }
 `;
-
 const SkillList = styled.div`
   display: flex;
   justify-content: center; 
@@ -118,7 +117,7 @@ const SkillItem = styled.div`
     padding: 6px 12px;
   }
   &:hover {
-    transform: rotateX(1deg) rotateY(180deg) scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
     transition: all 0.3s ease-in-out;
    
   }
