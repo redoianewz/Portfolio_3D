@@ -11,20 +11,19 @@ import {
   Title,
   Span,
   SubTitle,
-  SocialMediaIcons,
-  SocialMediaIcon,
   ResumeButton,
 } from "./HeroStyle";
 import HeroImg from "../../images/HeroImage.png";
 import Typewriter from "typewriter-effect";
 import { Bio } from "../../data/constants";
 
+
 const HeroSection = () => {
   return (
     <div id="about">
       <HeroContainer>
         <HeroBg>
-          <HeroBgAnimation />         
+          <HeroBgAnimation />
         </HeroBg>
         <HeroInnerContainer>
           <HeroLeftContainer id="Left">
@@ -48,7 +47,6 @@ const HeroSection = () => {
               Check Resume
             </ResumeButton>
           </HeroLeftContainer>
-
           <HeroRightContainer id="Right">
             <Img src={HeroImg} alt="hero-image" />
           </HeroRightContainer>

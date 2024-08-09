@@ -239,7 +239,7 @@ export const experiences = [
   },
   {
     id: 2,
-    img: "https://www.azilalalhora.com/imagesnews/1591911342.jpg",
+    img: "/maxmind.jpg",
     role: "Developer PHP",
     company: "Maxmind",
     date: "jun 2024 - present",
@@ -259,10 +259,11 @@ export const experiences = [
       "HTML",
       "CSS",
       "bootstrap",
-      'Tailwind CSS',
-      'franken'
+      "Tailwind CSS",
+      "franken",
     ],
-    doc: "https://bachen-eco.onrender.com/images/page/bys.jpg",
+
+    doc: "/attestation.jpg",
   },
 ];
 
